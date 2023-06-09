@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Strawberry']
+
+roboflow:
+  workspace: strawberriesssl
+  project: strawberries-re06x
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/strawberriesssl/strawberries-re06x/dataset/1
